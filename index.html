@@ -19,7 +19,8 @@
     <!-- Header -->
     <div class="header">
         <h1>Cagatay Ersoy</h1>
-        <p>Front<b>End</b> Web Developer</p>
+        <p>Front End  Web Developer</p>
+        <div class="arrow"><a href="#row"></a></div>
     </div>
 
     <!-- Navigation Bar -->
@@ -32,19 +33,18 @@
                 src="icons/stackoverflow.svg" height="40" width="40" alt="Logo3" /></a>
         <a href="https://github.com/Latecoder-hub" target="_blank" rel="noopener noreferrer"><img
                 src="icons/twitter.svg" height="40" width="40" alt="Logo1" /></a>
+                <div id="arrow-circle"></div>
     </div>
 
     <!-- The flexible grid (content) -->
-    <div class="row">
+    <div class="row" id="row">
         <div class="side">
             <h2>About Me</h2>
 
             <figure><img src="photo-of-me2.jpg" alt="My photo at San Francisco Baker Beach">
                 <figcaption>I was rearly relaxing in Baker Beach</figcaption>
             </figure>
-            <p>My name is Cagatay. I like coding, do you know why? When I see my code is working correctly after long
-                hours of work and determination, I feel like Doctor Frankenstein: It's alive, alive!
-
+            <p>
                 I started programming a couple of years ago after a civil engineering career that I didn't enjoy. After
                 taking some basic classes about programming, I decided to work on web and web development. I still
                 continue my education(mostly self-education) on web development and I hope I will reach the rank of
@@ -55,6 +55,15 @@
             <div class="fakeimg" style="height:60px;">Image</div><br>
             <div class="fakeimg" style="height:60px;">Image</div><br>
             <div class="fakeimg" style="height:60px;">Image</div>
+            
+            <div id="donate"><p>Do you want to help my journey or just buy me a cofee</p> <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="business" value="TGMDABCJ8SPNC" />
+                <input type="hidden" name="no_recurring" value="0.00" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" name="submit"
+                    title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt=" donate button" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form></div>
         </div>
         <div class="main">
 
@@ -236,8 +245,8 @@
             </section>
         </div>
         <div class="footer">
-            <h2>Footer</h2>
-        </div>
+            <h2>&copy; Copyright 2022, Cagatay Ersoy</h2>
+            
     </div>
 
     <!-- Footer -->
