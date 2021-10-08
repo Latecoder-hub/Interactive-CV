@@ -25,7 +25,6 @@
   /* Header/logo Title */
   #top-header{
     background:#8DF2FF;
-    
     height: 10vh;
     text-align:center;
     justify-items: center;
@@ -89,7 +88,7 @@
   }
   
   /* Column container */
-  .row {  
+  main{  
     display: flex;
     flex-wrap: wrap;
     height: 92vh;
@@ -102,21 +101,17 @@
   
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
-  .side {
+  aside {
     flex: 30%;
     background-color:#e6e9ed;
     padding: 20px;
-    
-    
-   
-    
-    
+     
   }
-  .side h2{
+  aside h2{
     text-align: center;
     color: #1c5970;
   }
-  .side p{
+  aside p{
     text-indent: 50px;
   }
  .skills a{
@@ -129,18 +124,15 @@
    display: flex;
    justify-content: space-between;
    
-  
-   
  }
 
  .CCSF li{
     display: list-item;
     list-style:disc;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
   }
   /* Main column */
-  .main {
+  article {
     flex: 70%;
     background-color: #f5f7fa;
     padding: 20px;
@@ -148,11 +140,11 @@
     flex-wrap: wrap;
         
   }
-  .main h2{
+  article h2{
     color: #1c5970;
   }
   @media (max-width: 800px) {
-    .main{
+    article{
         display: grid;
       
      
@@ -235,14 +227,8 @@
    
   }
 
-
   /*Arrow*/
- 
- 
-    
-    
- 
- 
+  
   .arrow {
     width: 6vmin;
     height: 6vmin;
@@ -277,8 +263,3 @@
       transition:.2s ease;
     }
     
-   
-    
-    
- 
- 
