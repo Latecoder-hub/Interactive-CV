@@ -51,7 +51,8 @@
     background: url("4.jpg"); 
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
     
     height: 82vh;
     color: #FFFFFF;
